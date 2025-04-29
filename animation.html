@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            background-color: orangered;
+            color: azure;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            animation-name: mark1;
+            animation-duration: 3s;
+            animation-timing-function: linear;
+            animation-delay: 1ms;
+            animation-iteration-count: infinite;
+            font-size: 100px;
+            text-align: center;
+
+        }
+        @keyframes mark1{
+            from{ background-color: orange;}
+            to{ background-color: yellow;}
+        }
+        @keyframes mark1{
+            0%{ background-color: rgb(174, 27, 187); left: 0px; top: 0px;}
+            25%{ background-color: rgb(250, 44, 44); left: 250px; top: 0px;}
+            50%{ background-color: rgb(124, 226, 56); left: 250px; top: 200px;}
+            75%{ background-color: rgb(197, 133, 14); left: 0px; top: 200px;}
+            100%{ background-color: rgb(37, 85, 218); left: 0px; top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: red; color: azure;">Animation:</h1>
+    <div>A</div>
+
+</body>
+</html>
