@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid properties</title>
+    <style>
+        h1{
+            background-color: #DCD7C9;
+             color: #2C3930;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        body{
+            background-color: #A27B5C;
+        }
+        .grid-container{
+            display: grid;/*inline-grid,inline-box,inline-flex*/
+            background-color: #3F4F44;
+            grid-template-columns: auto auto;
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+            padding: 20px;
+        
+        }
+        .grid-container>div{
+            background-color: #2C3930;
+            color: #DCD7C9;
+            text-align: center;
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>GRID PROPERTIES:</h1>
+    <div class="grid-container">
+      <div class="gridclass">A1</div>
+      <div class="gridclass">A2</div>
+      <div class="gridclass">A3</div>
+      <div class="gridclass">A4</div>
+      <div class="gridclass">A5</div>
+      <div class="gridclass">A6</div>
+      <div class="gridclass">A7</div>
+      <div class="gridclass">A8</div>
+      
+    </div>
+</body>
+</html>
